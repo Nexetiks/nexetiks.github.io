@@ -2909,10 +2909,10 @@ input, select, textarea {
 
 	.button-container {
 		display: flex;
-		flex-direction: column; /* Ustawienie przycisków jeden pod drugim */
-		align-items: center; /* Wyśrodkowanie przycisków */
-		gap: 10px; /* Odstęp między przyciskami */
-		margin-top: 20px; /* Odstęp nad przyciskami */
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		margin-top: 20px;
 	}
 	
 	.button {
@@ -2923,23 +2923,23 @@ input, select, textarea {
 		color: white;
 		font-size: 16px;
 		text-decoration: none;
-		width: 200px; /* Stała szerokość przycisków */
+		width: 200px;
 		transition: background-color 0.3s;
 	}
 	
 	.button-steam {
-		background-color: #164B7D; /* Ciemny niebieski Steam */
-		color: #ffffff; /* Biały tekst dla lepszej czytelności */
+		background-color: #1277AB;
+		color: #ffffff;
 	}
 	
 	.button-steam:hover {
-		background-color: #0f171e; /* Jeszcze ciemniejszy odcień przy najechaniu */
+		background-color: #0f171e;
 	}
 	
 	.button-nintendo {
-		background-color: #e60012; /* Kolor Nintendo */
+		background-color: #e60012;
 	}
 	
 	.button-nintendo:hover {
-		background-color: #b8000f; /* Ciemniejszy odcień przy najechaniu */
+		background-color: #b8000f;
 	}
