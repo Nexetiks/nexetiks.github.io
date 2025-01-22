@@ -2951,3 +2951,10 @@ input, select, textarea {
 		justify-content: center;
 		text-align: center;
 	}
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
