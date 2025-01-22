@@ -2906,3 +2906,40 @@ input, select, textarea {
 			}
 
 	}
+
+	.button-container {
+		display: flex;
+		flex-direction: column; /* Ustawienie przycisków jeden pod drugim */
+		align-items: center; /* Wyśrodkowanie przycisków */
+		gap: 10px; /* Odstęp między przyciskami */
+		margin-top: 20px; /* Odstęp nad przyciskami */
+	}
+	
+	.button {
+		padding: 12px 24px;
+		text-align: center;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		font-size: 16px;
+		text-decoration: none;
+		width: 200px; /* Stała szerokość przycisków */
+		transition: background-color 0.3s;
+	}
+	
+	.button-steam {
+		background-color: #164B7D; /* Ciemny niebieski Steam */
+		color: #ffffff; /* Biały tekst dla lepszej czytelności */
+	}
+	
+	.button-steam:hover {
+		background-color: #0f171e; /* Jeszcze ciemniejszy odcień przy najechaniu */
+	}
+	
+	.button-nintendo {
+		background-color: #e60012; /* Kolor Nintendo */
+	}
+	
+	.button-nintendo:hover {
+		background-color: #b8000f; /* Ciemniejszy odcień przy najechaniu */
+	}
