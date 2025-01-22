@@ -2943,3 +2943,11 @@ input, select, textarea {
 	.button-nintendo:hover {
 		background-color: #b8000f;
 	}
+
+	.col-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
